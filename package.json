@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "npm start": "node src/app.js"
+    "start": "src/app.js"
   },
   "keywords": [],
   "author": "",
