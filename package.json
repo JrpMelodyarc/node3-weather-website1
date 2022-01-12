@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,8 @@
     "request": "^2.88.2",
     "socket.io": "^4.4.0",
     "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
